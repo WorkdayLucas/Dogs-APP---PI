@@ -1,0 +1,59 @@
+/* .dogsContainer{
+    background: rgb(28, 27, 23);
+    background: linear-gradient(356deg, rgba(28, 27, 23, 1) 0%, rgba(170, 162, 119, 0.22172619047619047) 57%, rgba(221, 199, 155, 0.4318102240896359) 100%);
+} */
+
+.paginate{
+    border-radius: 40px;
+    height: 30px;
+    width: 50px;
+    margin: 10px;
+    font-size: 17px;
+}
+.setContainers{
+    display: flex;
+    justify-content: center;
+    text-align: center ;
+}
+
+.listContainer{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.show {
+    visibility: visible
+}
+
+.hide {
+    visibility: hidden
+}
+
+.dogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.liDog{
+    list-style: none;
+}
+
+hr{
+    border: 1px solid rgb(184, 175, 175);
+}
+
+.paginateSelectors{
+    border-radius: 20px;
+    height: 20px;
+    width: 30px;
+    font-size: 16px;
+    margin: 2px;
+}
+
+.current{
+    background-color: aquamarine;
+}
+

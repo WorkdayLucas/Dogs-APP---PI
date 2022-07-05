@@ -1,0 +1,44 @@
+.setsContainers{
+    display: flex;
+    justify-content: center;
+    text-align: center ;
+
+   
+}
+
+.allButton{
+    margin-right: 100px;
+    height: 30px;
+    width: 60px;
+    margin-top: 10px;
+    font-size: 17px;
+    border-radius: 40px;
+}
+
+.createdButton{
+    margin-right: 100px;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    font-size: 17px;
+    border-radius: 40px;
+}
+
+.selectsClass{
+    display: inline-flex;
+    border-radius: 40px;
+    height: 30px;
+    padding: auto;
+    margin: 10px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.showOp {
+    display: block
+ }
+ 
+ .hideOp {
+    display: none;
+ }

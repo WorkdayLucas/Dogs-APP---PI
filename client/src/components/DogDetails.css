@@ -1,0 +1,40 @@
+.detailContainer {
+    justify-content: left;
+    text-align: left;
+    padding: 0;
+}
+
+.detailContainer h1{
+    margin-left: 2.5em;
+}
+
+.interactions{
+    display: flex;
+    justify-content: end;
+    margin-left: 5em;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 50em;
+}
+
+.detailContainer hr{
+    width: 50em;
+    margin-left: 5em;
+    margin-top: .1em;
+}
+
+.dogImg {
+    margin-top: 2em;
+    margin-left: 5em;
+    width: 50em;
+}
+
+.dogInfo{
+    margin-top: 2em;
+    margin-left: 5em;
+}
+
+.dogInfo p{
+    margin-top: 2px;
+    width: 50em;
+}

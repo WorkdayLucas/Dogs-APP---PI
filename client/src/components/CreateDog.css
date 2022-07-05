@@ -1,0 +1,79 @@
+.errMsg {
+    color: red;
+    font-size: 0.8rem;
+}
+
+.blue {
+    color: blue;
+    font-size: 0.8rem;
+}
+
+.formContainer {
+    justify-content: start;
+    text-align: left;
+}
+
+.createForm {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    width: 400px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 3em;
+}
+
+.titles {
+    display: block;
+    margin-top: 1em;
+}
+
+.dogImgForm {
+    width: 250px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.dogImgForm img {
+    width: 250px;
+    height: 150px;
+
+}
+
+.numInput {
+    width: 60px;
+    position: relative;
+}
+
+.crear {
+    margin: auto;
+    margin-top: 2em;
+    width: 50px;
+}
+
+.textInput {
+    display: block;
+    width: 250px;
+}
+
+.createForm textarea {
+    display: block;
+    width: 250px;
+    height: 60px;
+}
+
+.temersContainer {
+    height: 100px;
+}
+
+.speciaErr {
+    height: 16px;
+}
+
+.temersContainer .errMsg {
+    display: block;
+}
+
+.tempersArea {
+    resize: none;
+}

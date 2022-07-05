@@ -1,0 +1,21 @@
+.show {
+    visibility: visible
+}
+
+.hide {
+    visibility: hidden
+}
+
+.searcher{
+    height: 35px;
+    width: 400px;
+    font-size: 20px;
+    border: 1px solid rgb(184, 175, 175);
+}
+
+.searcherButton{
+    height: 35px;
+    width: 70px;
+    font-size: 20px;
+    border: 1px solid rgb(184, 175, 175);
+}
